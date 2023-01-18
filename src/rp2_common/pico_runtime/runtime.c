@@ -175,6 +175,8 @@ void runtime_init(void) {
 
 }
 
+#if 0	// DC we use our own versions of the remaining functions
+
 void __attribute__((noreturn)) _exit(__unused int status) {
 #if PICO_ENTER_USB_BOOT_ON_EXIT
     reset_usb_boot(0,0);
@@ -282,6 +284,8 @@ void __attribute__((noreturn)) __printflike(1, 0) panic(const char *fmt, ...) {
 
     _exit(1);
 }
+#endif
+
 #endif
 
 void hard_assertion_failure(void) {
