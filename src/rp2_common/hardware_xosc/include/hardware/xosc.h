@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-#ifndef _HARDWARE_XOSC_H_
-#define _HARDWARE_XOSC_H_
+#ifndef _HARDWARE_XOSC_H
+#define _HARDWARE_XOSC_H
 
 #include "pico.h"
 #include "hardware/structs/xosc.h"
@@ -26,7 +26,7 @@ extern "C" {
 /** \file hardware/xosc.h
  *  \defgroup hardware_xosc hardware_xosc
  *
- * Crystal Oscillator (XOSC) API
+ * \brief Crystal Oscillator (XOSC) API
  */
 
 /*! \brief  Initialise the crystal oscillator system

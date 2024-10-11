@@ -4,8 +4,8 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */
 
-#ifndef _PICO_UNIQUE_ID_H_
-#define _PICO_UNIQUE_ID_H_
+#ifndef _PICO_UNIQUE_ID_H
+#define _PICO_UNIQUE_ID_H
 
 #include "pico.h"
 
@@ -16,7 +16,7 @@ extern "C" {
 /** \file pico/unique_id.h
  *  \defgroup pico_unique_id pico_unique_id
  *
- * Unique device ID access API
+ * \brief Unique device ID access API
  *
  * RP2040 does not have an on-board unique identifier (all instances of RP2040
  * silicon are identical and have no persistent state). However, RP2040 boots
